@@ -200,9 +200,9 @@ export const mockAccounts: Account[] = [
       account_type: 'Checking',
       isAccountNumber: true,
       isChecking: true,
-      balance_usd: 0.0,
-      isSavings: true,
-      saving_balance_usd: 40000.0
+      balance_usd: 40000.0,
+      isSavings: false,
+      saving_balance_usd: 0.0
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
@@ -212,12 +212,12 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-      {
-        dateTime: 'September 16, 2025',
-        description: 'Wire Transfer from Automobile Company - XXXXXX1836',
-        status: 'Pending',
-        amount_usd: 8600000.0
-      },
+      // {
+      //   dateTime: 'September 16, 2025',
+      //   description: 'Wire Transfer from Automobile Company - XXXXXX1836',
+      //   status: 'Pending',
+      //   amount_usd: 8600000.0
+      // },
       {
         dateTime: 'December 15, 2022',
         description: 'Vat fee - XXXXXX7924',
