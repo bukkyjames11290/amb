@@ -212,12 +212,12 @@ export const mockAccounts: Account[] = [
       wireDate: true
     },
     transaction_history: [
-      // {
-      //   dateTime: 'September 16, 2025',
-      //   description: 'Wire Transfer from Automobile Company - XXXXXX1836',
-      //   status: 'Pending',
-      //   amount_usd: 8600000.0
-      // },
+      {
+        dateTime: 'September 16, 2025',
+        description: 'Wire Transfer from Automobile Company - XXXXXX1836',
+        status: 'Pending',
+        amount_usd: 8600000.0
+      },
       {
         dateTime: 'December 15, 2022',
         description: 'Vat fee - XXXXXX7924',
