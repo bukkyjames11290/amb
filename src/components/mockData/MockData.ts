@@ -200,7 +200,7 @@ export const mockAccounts: Account[] = [
       account_type: 'Checking',
       isAccountNumber: true,
       isChecking: true,
-      balance_usd: 40000.0,
+      balance_usd: 8640000.0,
       isSavings: false,
       saving_balance_usd: 0.0
     },
